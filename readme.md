@@ -1,1 +1,1 @@
-##Terms of summary summarizer
+Terms of summary summarizer
