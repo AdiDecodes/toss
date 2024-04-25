@@ -1,0 +1,180 @@
+body {
+  width: 400px;
+  height: 460px;
+  font-family: 'Lato';
+}
+
+.header {
+  border-bottom: 1px solid #B9B9B9;
+  padding-bottom: 17px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 22px;
+  height: 22px;
+  margin-right: 13px;
+}
+
+.header-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-text-green {
+  color: #38D37F;
+}
+
+.setting {
+  margin-left: 17%;
+}
+
+.close {
+  margin-left: 3%;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6%;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.material-icons:hover {
+  color: #38D37F !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.info {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.info-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info-list {
+  margin-block-start: 5px;
+  list-style-type: none;
+  padding-inline-start: 54px;
+}
+
+.info-list-elem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.data {
+  padding-inline-start: 0px;
+}
+
+.
+
+.arrowsbutton {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.arrowsbutton:hover {
+  cursor: pointer;
+}
+
+.info-list-sub {
+  display: inline-block;
+  color: black;
+  font-size: 14px;
+  margin-left: 5%;
+}
+
+li {
+  padding-bottom: 8px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 9px;
+  color: #B9B9B9;
+}
+
+button  {
+  margin-top: 10px;
+  outline: none;
+}
+
+#box {
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-clip: padding-box;
+  background-color: white;
+  padding: 25px;
+}
+
+.tooltip {
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-clip: padding-box;
+  background-color: white;
+  padding: 25px;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  color: #B9B9B9;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  width: 37%;
+}
+
+.back:hover {
+  cursor: pointer;
+  color: #38D37F !important;
+}
+
+.back-text {
+  padding-left: 2%;
+  font-size: 16px;
+}
+
+.check-list {
+  margin-block-start: 5px;
+  list-style-type: none;
+  padding-inline-start: 28px;
+}
+
+.govt {
+  color: #38D37F;
+}
+
+.track {
+  color: #75CDD2;
+}
+
+.share {
+  color: #89AAE6;
+}
+
+.sell {
+  color: #D89BC7;
+}
+
+.copyright {
+  color: #AF62BB;
+}
+
+.court {
+  color: #468EB9;
+}

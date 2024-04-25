@@ -1,0 +1,43 @@
+#summarizeMeID {
+  padding: 15px;
+  width: auto;
+  font-family: 'Verdana';
+  font-size: 13.5px;
+  background-color: #F3F2EE;
+}
+
+#summarizeMeUL {
+  margin-bottom: 10px;
+}
+
+#summarizeMeButton {
+  float: right;
+}
+
+mark{
+    background: #38D37F;
+}
+
+mark.govt {
+    background: #38D37F;
+}
+
+mark.track {
+    background: #75CDD2;
+}
+
+mark.share {
+    background: #89AAE6;
+}
+
+mark.sell {
+    background: #D89BC7;
+}
+
+mark.copyright {
+    background: #AF62BB;
+}
+
+mark.court {
+    background: #468EB9;
+}

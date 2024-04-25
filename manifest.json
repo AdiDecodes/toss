@@ -1,0 +1,41 @@
+{
+  "name": "Terms Of Service Summary",
+  "author": "Aditya sINGH",
+  "version": "0.0.1",
+  "offline_enabled": true,
+  "manifest_version": 2,
+  "description": "An extension that distills Terms of Services into a few actionable items.",
+  "icons": {
+    "16": "images/summarize-16.png",
+    "128": "images/summarize-icon.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "scripts/jquery-3.1.0.min.js",
+      "scripts/chromereload.js",
+      "scripts/background.js"
+    ]
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["scripts/jquery-3.1.0.min.js", "scripts/mark.min.js"],
+      "run_at": "document_end",
+      "all_frames": false,
+      "css": ["styles/custom.css"]
+    }
+  ],
+  "omnibox": {
+    "keyword": "OMNIBOX-KEYWORD"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/summarize-16.png",
+      "38": "images/summarize-icon.png"
+    },
+    "default_title": "Terms of Service Summary",
+    "default_popup": "popup.html"
+  }
+}

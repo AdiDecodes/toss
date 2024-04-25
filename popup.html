@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Terms of Service Summary</title>
+  <link href="styles/main.css" rel="stylesheet">
+  <script src="scripts/popup.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <div id="settings box" class="tooltip hidden">
+    <div class="header">
+      <img src="./images/summarize-icon.png" alt="logo" class="logo">
+      <div class="header-text">
+        <span>Terms of Service</span>
+        <span class="header-text-green">didn't read</span>
+      </div>
+      <div class="setting"><i class="material-icons" style="font-size:24px;color:#38D37F;">settings</i></div>
+      <div id="close button settings" class="close button"><i class="material-icons"
+          style="font-size:24px;color:#B9B9B9;">clear</i></div>
+    </div>
+
+    <div class="back" id="back button">
+      <div> <i class="material-icons" style="font-size:22px;">arrow_back</i></div>
+      <div class="back-text">Back to Main</div>
+    </div>
+
+    <div>
+      <div class="info-title">I want to see...</div>
+      <ul class="check-list">
+        <li><input id="govt checkbox" type="checkbox" checked>Government access to my data</li>
+        <li><input id="track checkbox" type="checkbox" checked>Tracking & Third party sites</li>
+        <li><input id="share checkbox" type="checkbox" checked>How my data is shared</li>
+        <li><input id="sell checkbox" type="checkbox" checked>If my data is sold</li>
+        <li><input id="copyright checkbox" type="checkbox">Who owns my content</li>
+        <li><input id="court checkbox" type="checkbox">My litigation rights</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- MAIN PAGE -> starts as visible -->
+  <div id="box">
+    <div class="header">
+      <img src="./images/summarize-icon.png" alt="logo" class="logo">
+      <div class="header-text">
+        <span>Terms of Service</span>
+        <span class="header-text-green">didn't read</span>
+      </div>
+      <div id="setting button" class="setting button"><i class="material-icons"
+          style="font-size:24px;color:#B9B9B9;">settings</i></div>
+      <div id="close button" class="close button"><i class="material-icons"
+          style="font-size:24px;color:#B9B9B9;">clear</i></div>
+    </div>
+    <div class="info" id="govt">
+      <div>
+        <div class="info-title govt">Government Access</div>
+        <ul class="info-list data" id="list govt">
+        </ul>
+      </div>
+    </div>
+
+    <div class="info" id="track">
+      <div>
+        <div class="info-title track">Tracking you on Other Websites</div>
+        <ul class="info-list data" id="list track">
+        </ul>
+      </div>
+    </div>
+
+    <div class="info" id="share">
+      <div>
+        <div class="info-title share">Sharing Your Data</div>
+        <ul class="info-list data" id="list share">
+        </ul>
+      </div>
+    </div>
+
+    <div class="info" id="sell">
+      <div>
+        <div class="info-title sell">Selling Your Data</div>
+        <ul class="info-list data" id="list sell">
+        </ul>
+      </div>
+    </div>
+
+    <div class="info hidden" id="copyright">
+      <div>
+        <div class="info-title copyright">Ownership of your Content</div>
+        <ul class="info-list data" id="list copyright">
+        </ul>
+      </div>
+    </div>
+
+    <div class="info hidden" id="court">
+      <div>
+        <div class="info-title court">Right to go to Court</div>
+        <ul class="info-list data" id="list court">
+        </ul>
+      </div>
+    </div>
+
+
+    <span>
+      <div id='message'>Scanning the page...</div>
+    </span>
+    <script src="scripts/popup.js"></script>
+  </div>
+</body>
+
+</html>
